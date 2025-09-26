@@ -1,0 +1,1 @@
+{"name":"agendaDB","version":"1.0.0","description":"API gestion de tareas con express","main":"src/app.js","scripts":{"start":"node src/app.js","dev":"nodemon src/app.js"},"dependencies":{"cors":"^2.8.5","dotenv":"^17.2.2","express":"^5.1.0","mongodb":"^6.19.0","mongoose":"^8.18.1"},"keywords":[],"author":"","license":"ISC","devDependencies":{"nodemon":"^3.1.10"}}
