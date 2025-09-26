@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 console.error('Error al obtener contactos:', error);
-                tasksList.innerHTML = '<p class="no-contacts">Error al cargar los contactos.</p>';
+                tasksList.innerHTML = '<p class="no-contacts">Error al cargar los contactos, servidor apagado, por favor contacte con el creador para solicitar que se encienda.</p>';
             });
     }
 
